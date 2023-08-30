@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<style>
+		body{
+			text-align: center;
+			background-color: pink;
+		}
+		table{
+			margin-left: 620px;
+			margin-top: 20px;
+			background-color: skyblue;
+		}
+		input{
+			margin-top: 30px;
+			border:5px solid black;
+		}
+		h1{
+			color:orange;
+		}
+		button{
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<h2>calculator</h2>
+	<input type="text"id="result"readonly>
+	<table>
+		<tr>
+			<td><button onclick="Appendnumber(7)">7</button></td>
+			<td><button onclick="Appendnumber(8)">8</button></td>
+			<td><button onclick="Appendnumber(9)">9</button></td>
+			<td><button onclick="Setoperator('+')">+</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="Appendnumber(4)">4</button></td>
+			<td><button onclick="Appendnumber(5)">5</button></td>
+			<td><button onclick="Appendnumber(6)">6</button></td>
+			<td><button onclick="Setoperator('-')">-</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="Appendnumber(3)">3</button></td>
+			<td><button onclick="Appendnumber(2)">2</button></td>
+			<td><button onclick="Appendnumber(1)">1</button></td>
+			<td><button onclick="Setoperator('*')">*</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="Appendnumber(0)">0</button></td>
+			<td><button onclick="Clearresult('c')">c</button></td>
+			<td><button onclick="Calculator('=')">=</button></td>
+			<td><button onclick="Setoperator('/')">/</button></td>
+		</tr>		
+	</table>
+</body>
+<script type="text/javascript"src="intro.js">
+	</script>
+</html>
